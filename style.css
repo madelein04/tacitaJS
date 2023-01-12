@@ -16,7 +16,7 @@ body {
 
 
 .max-view-height {
-    height: 75vh;
+    height: 60vh;
 }
 
 @media (max-width:700px) {
@@ -30,7 +30,13 @@ body {
 }
 
 #container-tacita {
-    width: 70%;
+    width: 50%;
+}
+
+@media (max-width:700px) {
+    #container-tacita {
+        width: 90%;
+    }
 }
 
 #container-tacita>video {
@@ -45,9 +51,15 @@ body {
     margin-top: 10px;
     border-radius: 5px;
     padding: 10px 0;
-    width: 60%;
+    width: 30%;
     justify-content: space-around;
     cursor: pointer;
+}
+
+@media (max-width:700px) {
+    #container-botones-tacita {
+        width: 60%;
+    }
 }
 
 /* CSS */
@@ -87,10 +99,54 @@ body {
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10%;
     font-family: monospace;
     font-size: 13px;
     text-transform: capitalize;
     color: rgba(17, 5, 95, 0.562);
+}
+
+@media (max-width:1500px) {
+    .footer {
+        margin-top: 11%;
+    }
+}
+
+@media (max-width:1300px) {
+    .footer {
+        margin-top: 13%;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .footer {
+        margin-top: 14%;
+    }
+}
+
+@media (max-width:1000px) {
+    .footer {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:800px) {
+    .footer {
+        margin-top: 17%;
+    }
+}
+
+@media (max-width:700px) {
+    .footer {
+        margin-top: 13%;
+    }
+}
+
+@media (max-width:600px) {
+    .footer {
+        margin-top: 10%;
+    }
 }
 
 a {
@@ -100,6 +156,7 @@ a {
 
 @media (max-width:700px) {
     a {
+
         margin-right: 35%;
     }
 }
